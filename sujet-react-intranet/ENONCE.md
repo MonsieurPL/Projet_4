@@ -17,7 +17,6 @@ En tant que développeur Front-End, **vous êtes en charge de développer le Fro
 - Back-end (fourni) : Node.js / Express
 - Front-end : **HTML, CSS, React**
 
-## Présentation du fonctionnement de la plateforme
 
 ### A. Utilisateur standard :
 

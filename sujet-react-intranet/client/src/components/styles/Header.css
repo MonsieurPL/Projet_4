@@ -1,0 +1,141 @@
+/* Header Desktop */
+
+.bg-ts {
+  background-color: transparent !important;
+}
+.ctn-nav {
+  max-width: 1440px !important;
+  max-height: 150px;
+}
+#logo-intra {
+  max-height: 100px !important;
+  margin-top: 50px;
+}
+
+.navbar-nav {
+  margin-left: 80px;
+}
+
+a.nav-link {
+  margin-left: 35px;
+  letter-spacing: 0.1em;
+  color: black;
+}
+
+a.nav-link:nth-child(2) {
+  margin-left: 35px;
+}
+
+.navbar-nav {
+  width: 100% !important;
+}
+#settings {
+  max-width: 35px;
+}
+
+#logo-co-set {
+  margin-left: auto !important;
+  margin-top: -5px;
+}
+
+#logo-co-set a {
+  display: inline-block;
+}
+
+#logo-mobile svg {
+  display: none !important;
+}
+
+#logo-mobile {
+  display: none;
+}
+
+#logo-intra-mobile {
+  display: none;
+}
+
+/* Header Mobile et Tablette */
+
+@media (max-width: 992px) {
+  .ctn-nav {
+    max-height: 80px;
+  }
+  #logo-intra {
+    max-height: 100px !important;
+    margin-top: 10px;
+  }
+  .navbar-nav {
+    margin-left: 0 !important;
+  }
+
+  .navbar-toggler {
+    margin-top: -10% !important;
+    border: none !important;
+    color: black !important;
+    z-index: 99999 !important;
+    margin-right: 4%;
+  }
+
+  #basic-navbar-nav,
+  .show {
+    background: white;
+    min-height: 100%;
+    z-index: 9999;
+    margin-top: -30%;
+  }
+
+  .show .me-auto {
+    width: 100% !important;
+    height: 100vh !important;
+  }
+  .nav-link {
+    margin: 0 auto !important ;
+  }
+
+  #logo-co-set {
+    margin: 0 auto !important ;
+  }
+
+  #logo-co-set a {
+    display: block;
+  }
+
+  a.nav-link:nth-child(1) {
+    margin-top: 50% !important;
+  }
+
+  #logo-mobile {
+    display: block;
+  }
+
+  #logo-intra-mobile {
+    display: block;
+    margin-top: -50% !important;
+    margin-bottom: 20%;
+    max-height: 120px !important;
+  }
+}
+
+/* Retouche Mobile */
+
+@media (max-width: 660px) {
+  #logo-intra {
+    max-height: 80px !important;
+    margin-top: 10px;
+  }
+
+  .navbar-toggler {
+    margin-top: -15% !important;
+    border: none !important;
+    color: black !important;
+    z-index: 99999 !important;
+  }
+
+  #basic-navbar-nav,
+  .show {
+    background: white;
+    height: 100vh;
+    z-index: 9999;
+    margin-top: -40%;
+  }
+}

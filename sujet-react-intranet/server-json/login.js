@@ -19,7 +19,7 @@ module.exports = router;
 
 function postLogin(req, res) {
   const user = CollaborateurModel.findByEmail(req.body.email);
-  if (!user) return res.send(404, { error: 'Collaborateur introuvable' });
+  if (!user) return res.send(404, { error: 'Collaborateur introuvable, mais pourquoi ????' });
 
   bcrypt.compare(req.body.password, user.password).then((isValid) => {
     if (isValid) {

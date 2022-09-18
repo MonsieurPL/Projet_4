@@ -1,0 +1,68 @@
+#accueil-wrapper {
+  margin-bottom: 35px;
+}
+
+.select-service {
+  margin-bottom: 60px;
+  margin-top: 25px;
+}
+
+.select-service select {
+  background: none;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 8px;
+  color: black;
+}
+
+.col-cards {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  display: inline-block !important;
+}
+
+.card-userlist {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.card-service-2 {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  background: white;
+  border: 1px solid black;
+  padding: 4px 10px 4px 10px;
+  border-radius: 10px;
+  z-index: 999;
+  width: 30%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.card-name {
+  font-family: Avenir;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.08em;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.center-list img {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-right: 20px;
+}
+
+#collegues span {
+  font-family: Avenir;
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
