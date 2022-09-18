@@ -19,12 +19,6 @@ async function loginUser(credentials) {
 
     return data;
   }
-  //   .then((data) => {
-  //   let res = data.json();
-  //   console.log(res);
-  //   console.log(res.token);
-
-  //  })
 }
 
 export default function postLogin() {
